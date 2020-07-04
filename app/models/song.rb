@@ -34,4 +34,4 @@ class Song < ActiveRecord::Base
     self.notes.collect(&:content)
   end
 end
-end
+
